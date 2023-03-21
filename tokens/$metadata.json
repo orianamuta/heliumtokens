@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "core/Constant",
+    "core/Light",
+    "core/Dark",
+    "semantic/Light",
+    "semantic/Dark",
+    "meta"
+  ]
+}

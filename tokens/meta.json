@@ -1,0 +1,132 @@
+{
+  "assemble": {
+    "label": {
+      "type-color": {
+        "value": "{gray.100}",
+        "type": "color",
+        "description": "Label typography color"
+      },
+      "bg-color": {
+        "value": "{blue.100}",
+        "type": "color",
+        "description": "Background color for the label"
+      },
+      "type-size": {
+        "value": {
+          "fontFamily": "{font-family.default}",
+          "fontWeight": "{weight.l}",
+          "fontSize": "{font.xxxl}"
+        },
+        "type": "typography",
+        "description": "Typography style for the text in the label"
+      },
+      "padding": {
+        "value": "{padding-vertical.xl} {padding-horizontal.xl}",
+        "type": "spacing",
+        "description": "Internal meassure for label box"
+      }
+    },
+    "dashedbox": {
+      "border": {
+        "value": {
+          "color": "{gray.50}",
+          "width": "{border-width.m}",
+          "style": "dashed"
+        },
+        "type": "border",
+        "description": "Border style for the views container box"
+      }
+    }
+  },
+  "illustration": {
+    "meassure": {
+      " bg-color": {
+        "value": "rgb({blue.100}, 0.2)",
+        "type": "color",
+        "description": "Background color for the meassure component"
+      },
+      "boder-color": {
+        "value": "{blue.100}",
+        "type": "color",
+        "description": "Meassure dashed border color"
+      }
+    },
+    "bg-color": {
+      "value": "{gray.200}",
+      "type": "color",
+      "description": "Background color for the illustrations."
+    },
+    "pointer": {
+      "solid-color": {
+        "value": "{blue.100}",
+        "type": "color",
+        "description": "Color for the pointer"
+      }
+    },
+    "descrip": {
+      "type-color": {
+        "value": "{blue.100}",
+        "type": "color",
+        "description": "Color for the type in the meassure and pointer components"
+      },
+      "type-size": {
+        "value": {
+          "fontFamily": "{font-family.default}",
+          "fontWeight": "{weight.xs}",
+          "fontSize": "{font.xxxs}"
+        },
+        "type": "typography",
+        "description": "Type style for the text in the meassure and pointer components"
+      },
+      "gray": {
+        "value": "{gray.700}",
+        "type": "color",
+        "description": "Color gray for illustration labeling hierarchy."
+      }
+    },
+    "token": {
+      "type-color": {
+        "value": "{gray.100}",
+        "type": "color",
+        "description": "Type color for the token names"
+      },
+      "bg-color": {
+        "value": "{blue.100}",
+        "type": "color",
+        "description": "Background color for the token pill"
+      },
+      "type-size": {
+        "value": {
+          "fontFamily": "{font-family.default}",
+          "fontWeight": "{weight.xs}",
+          "fontSize": "{font.xxxs}"
+        },
+        "type": "typography",
+        "description": "Type style for the token names"
+      },
+      "border-radius": {
+        "value": "{border-radius.m}",
+        "type": "borderRadius",
+        "description": "Radius meassure for the token pill"
+      }
+    },
+    "padding": {
+      "value": "{padding-vertical.xxl} {padding-horizontal.xxl}",
+      "type": "spacing"
+    },
+    "divider": {
+      "border-color": {
+        "value": "{gray.300}",
+        "type": "color"
+      }
+    }
+  },
+  "divider": {
+    "border": {
+      "value": {
+        "color": "{illustration.divider.border-color}"
+      },
+      "type": "border"
+    }
+  }
+}

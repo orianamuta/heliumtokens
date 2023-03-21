@@ -1,0 +1,24 @@
+[
+  {
+    "id": "39cd47855d65dfd4ea5402fd2fab789dc9e4a7cb",
+    "name": "dark",
+    "selectedTokenSets": {
+      "meta": "enabled",
+      "core/Constant": "enabled",
+      "core/Dark": "enabled",
+      "semantic/Dark": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "490e42fabdad4895a9e0510fad5fe0216378eed8",
+    "name": "light",
+    "selectedTokenSets": {
+      "meta": "enabled",
+      "core/Constant": "enabled",
+      "core/Light": "enabled",
+      "semantic/Light": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
